@@ -1,0 +1,195 @@
+body{
+	font-size: 18px;
+	font-family: tahoma;
+   	background:url(bldg.gif) fixed center center no-repeat;
+   	background-size: cover;
+   	color: white;
+ 
+
+   	
+}
+
+/**my picture on top*/
+#me{
+	position: absolute;
+	border-radius: 50%;
+  	border: 1px solid #ffcc66;
+	border-width: 10px;
+	left: 230px;
+  	top: 50px;
+}
+/**top */
+h2 ,p{
+	text-align: center;
+	font-weight: 30;
+}
+.name{
+	padding-top: 10%;
+	color:   #ffcc66;
+}
+.mainbody{
+	text-align: center;
+}
+.career h2{
+	color: #ffcc66;
+	font-weight: 30;
+}
+.mainbody h3{
+	color: #ffcc66;
+	font-weight: 30;
+}
+.tm-body
+{
+  
+  Position: absolute;
+  Display: flex;
+  Margin: auto;
+  Top: 310px;
+  Left: 200px;
+  Width: 60%;
+  Height: 80%;
+  font-weight: 100;
+
+}
+/* Left Body (skill, bars, contact, etc.,)*/
+.tm-body-left
+{
+  Flex: 20%;
+  Margin: 9px 9px;
+}
+.tm-body-left h1
+{
+  Color: #ffcc66;
+  Margin: 30px auto;
+  Text-align: center;
+  font-weight: 30;;
+}
+.tm-body-left h2
+{
+  Color: white;
+  Margin: 12px 5px;
+  font-weight: 30;
+  Font-size: 20px;
+}
+.tm-body-left h2 img
+
+{
+  Float: left;
+  Margin-left: -35px;
+  Margin-top: 0px;
+  }
+.tm-body-left .tm-flexbox
+{
+  Display: flex;
+  Margin-left: -10px;
+}
+.tm-body-left .tm-flexbox .left
+{
+  Flex: 40%;
+}
+.tm-body-left .tm-flexbox .left h3{
+	font-weight: 50;
+}
+.tm-body-left .tm-flexbox .right
+{
+  Flex: 40%;
+}
+.tm-flexbox .right .bar
+{
+	bottom:10px;
+
+}
+.tm-body-left .tm-flexbox .right .bar
+{
+  Position: relative;
+  Margin: 26px 10px;
+  Color: white;
+  Border: 1px solid;
+  Border-radius: 100px;
+  Background-color: #ffcc66;
+}
+.tm-body-left .hobbies-icons ul
+{
+  List-style-type: none;
+  Margin: 0 10px;
+  font-weight: 30;
+}
+.tm-body-left .hobbies-icons ul li
+{
+  Display: inline-block;
+  Margin: 0 10px;
+  font-weight: 30;
+}
+
+
+
+/**right side*/
+.tm-body-right
+{
+  Flex: 50%;
+  Border-left: 4px solid #ffcc66;
+}
+.tm-body-right .header
+{
+  Color: white;
+  Position: relative;
+  Color: #EEEEEE;
+  Margin: 20px 0px;
+  Margin-right: 100px;
+  Margin-left: 30px;
+  Border-right-width: -20px;
+  Border-radius: 0px 200px 10px 10px;
+  Background-color: #999999;
+}
+
+.tm-body-right .header:before
+{
+  Content: “ “;
+  Position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  right: -20px;
+  bottom: 0px;
+  border-radius: 0px 200px 10px 10px;
+  background-color: #ffcc66;
+}
+.tm-body-right h1
+{
+  Color: #ffcc66;
+  Font-weight: 30;
+  Margin: 5px 10px;
+}
+.tm-body-right h2
+{
+  Color: white;
+  Font-weight: 30;
+}
+
+.tm-body-right .table
+{
+  Width: -40px;
+  Margin: 0px 14px;
+}
+.tm-body-right .table .tablebody
+{
+  Border: 5px solid blue;
+}
+.tm-body-right .table th
+{
+  Color: white;
+  Text-transform: none;
+  Padding: 5px 15px;
+  Font-size: 14px;
+  Text-align: left;
+  font-weight: 30;
+}
+.tm-body-right .table td
+{
+  Text-transform: none;
+  Padding: 0px 15px;
+  Font-size: 14px;
+  font-weight: 30;
+  Color: white;
+}
+
